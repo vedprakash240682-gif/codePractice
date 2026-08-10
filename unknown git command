@@ -1,0 +1,51 @@
+Unknown Common Git Commands
+
+•	git log --oneline 
+•	git diff 
+•	git branch 
+•	git checkout branch 
+•	git switch branch 
+•	git merge branch 
+•	git pull origin main 
+•	git fetch 
+•	git stash / git stash pop 
+•	git reset --soft HEAD~1 
+•	git reset --hard HEAD~1 
+•	git restore file 
+•	git rm file 
+•	git mv old new
+Remote Commands 
+•	git remote -v 
+•	git remote add origin https://github.com/user/repo.git 
+•	git remote remove origin 
+•	git remote set-url origin NEW_URL
+GitHub Workflow 
+•	git branch -M main  
+•	git remote add origin URL 
+•	git push -u origin main
+
+Common .bat Commands 
+•	echo
+•	@echo off
+•	Title
+•	 Color
+•	 set VAR=value
+•	 If
+•	 Goto
+•	 Call
+•	 Start
+•	rmdir
+•	 del
+•	 Copy
+•	 Move
+•	 Ren
+•	 xcopy
+•	 robocopy
+•	 tasklist
+•	 taskkill
+•	 Ping
+•	 Ipconfig
+•	 shutdown
+•	 exit.
+Example BAT 
+@echo off echo Building... git add . git commit -m "Auto commit" git push origin main pause
