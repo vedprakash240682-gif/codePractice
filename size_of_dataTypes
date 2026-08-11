@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"\tSize of all data types (in Bytes)\n";
+    cout<<"----------------------------------------\n\n";
+    //Integer types
+    cout<<"\t INTEGER DATA TYPES\n";
+    cout<<"short : "<<sizeof(short)<<" Bytes\n";
+    cout<<"int : "<<sizeof(int)<<" Bytes\n";
+    cout<<"long : "<<sizeof(long)<<" Bytes\n";
+    cout<<"long long : "<<sizeof(long long)<<" Bytes\n\n";
+    
+    // Characters
+    cout<<"\t CHARACTER DATA TYPES\n";
+    cout<<"char : "<<sizeof(char)<<" Bytes\n";
+    cout<<"wchar_t : "<<sizeof(wchar_t)<<" Bytes\n\n";
+
+    //Floating point
+    cout<<"\t FLOATING DATA TYPES\n";
+    cout<<"float : "<<sizeof(float)<<" Bytes\n";
+    cout<<"double : "<<sizeof(double)<<" Bytes\n";
+    cout<<"long double: "<<sizeof(long double)<<" Bytes\n\n";
+
+    // Boolean type
+    cout<<"\t BOOLEAN DATA TYPES\n";
+    cout<<"bool : "<<sizeof(bool)<<" Bytes\n";
+}
